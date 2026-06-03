@@ -6,5 +6,14 @@
 // Se una classe vuole utilizzare un'altra classe che si trova in un package differente, deve importarla:
 //  - Librerie Standard: Abbiamo già visto import java.util.Scanner;. Qui stiamo dicendo a Java di andare nel
 //  package java.util a prendere lo strumento Scanner
-// - Import Automatici: II package java.lang (che contiene String, System, Integer) è l'unico importato
+//  - Import Automatici: II package java.lang (che contiene String, System, Integer) è l'unico importato
 // automaticamente in ogni file
+
+//Condizionali
+// i vari condizionali sono gli sessi di JS e della maggior parte dei linguaggi di programmaizone
+// if - a differenza di JS le uniche cose che possono essere messe all'interno sono valori che ritornano un booleano
+// if-else 
+// switch
+// while
+// do-while
+// for
