@@ -16,7 +16,7 @@ public class Main {
     }
 
     public static void countdownMethod(int num) {
-        for (int i = 20; i >= 0; i--) {
+        for (int i = num; i >= 0; i--) {
             if (num == 10) {
                 System.out.println("[OK] " + num);
                 System.out.println("--SEPARAZIONE STADIO--");

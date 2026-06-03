@@ -4,7 +4,7 @@ public class Main {
     static void main() {
 
         pariDispari("Ciao, io mi chiamo Gigi!");
-        bisestile(2064);
+        bisestile(2020);
 
     }
 
@@ -20,7 +20,10 @@ public class Main {
     }
 
     public static boolean bisestile(int year) {
-        if (year % 4 == 0 || year % 100 == 0 && year % 400 == 0) {
+        if (year % 400 == 0) {
+            System.out.println("L'anno è bisestile");
+            return true;
+        } else if ((year % 4 == 0) && (year % 100 != 0)) {
             System.out.println("L'anno è bisestile");
             return true;
         } else {
