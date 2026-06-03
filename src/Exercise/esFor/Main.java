@@ -7,8 +7,8 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Fai iniziare il countdown con un numero da 1 a 20");
         int countdown = Integer.parseInt(scanner.nextLine());
-        if (countdown > 21) {
-            countdown = 21;
+        if (countdown > 20) {
+            countdown = 20;
         }
 
         countdownMethod(countdown);
@@ -16,8 +16,7 @@ public class Main {
     }
 
     public static void countdownMethod(int num) {
-        for (int i = 21; i > 0; i--) {
-            num--;
+        for (int i = 20; i >= 0; i--) {
             if (num == 10) {
                 System.out.println("[OK] " + num);
                 System.out.println("--SEPARAZIONE STADIO--");
@@ -30,7 +29,7 @@ public class Main {
             } else {
                 System.out.println("[CHECK] " + num);
             }
-
+            num--;
         }
     }
 }
