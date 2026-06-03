@@ -7,9 +7,15 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Fai iniziare il countdown con un numero da 1 a 20");
         int countdown = Integer.parseInt(scanner.nextLine());
+
+        if (countdown < 0) {
+            countdown = -countdown;
+        }
+
         if (countdown > 20) {
             countdown = 20;
         }
+
 
         countdownMethod(countdown);
 
