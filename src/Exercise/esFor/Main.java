@@ -18,10 +18,10 @@ public class Main {
 
 
         countdownMethod(countdown);
-
     }
 
     public static void countdownMethod(int num) {
+        String stringaUnica = "";
         for (int i = num; i >= 0; i--) {
             if (num == 10) {
                 System.out.println("[OK] " + num);
